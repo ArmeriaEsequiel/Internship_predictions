@@ -50,7 +50,7 @@ Problema:
 2. La poca cantidad de datos utilizables, un total de 1261 filas.
 3. Pocas filas contenian una correlacion aceptable con nuestro target.
 
-Solucione: 
+Soluciones: 
 1. Uno de los metodos utilizados para palear esta dificultad a la hora de entrenar el modelo, fue la utilizacion de los parametros "scale_pos_weight" y "max_delta_step" lo que nos ayuda a equilibrar la diferencia entre clases.
 2. Se penso en atacar este problema desde el oversampling o undersampling.
 3. Se utilizaron tecnicas de feature engineering, como escalado, PCA y columnas sinteticas.

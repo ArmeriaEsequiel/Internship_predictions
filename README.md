@@ -9,9 +9,8 @@ Como baseline se crearon 3 modelos distintos:
 3. Modelo realizado con Keras.
 
 
-Dando como resultad que el mejor modelo baseline fue Xgboost. En base a esto se procedio a tunnear hiperparametros.
-Despues de una ronda de tunning con RandomizedSearchCV y cross-validation, se decidio aplicar PCA a nuestros datos. Se busco el numero de componentes que expliquen el 95% de la varianza 
-Se volvio a entrenar el modelo post aplicacion de PCA a nuestros datos. 
+Dando como resultado, que el mejor modelo baseline fue Xgboost. En base a esto se procedio a tunnear hiperparametros.
+Despues de una ronda de tunning con RandomizedSearchCV y cross-validation, se decidio aplicar PCA a nuestros datos. Se busco el numero de componentes que expliquen el 95% de la varianza y se volvio a entrenar el modelo. 
 
 Las metricas utilizadas para evaluar el modelo fueron:
 1. Accuracy
@@ -42,6 +41,7 @@ Para analsis estadistico
 Creacion y tuning del modelo:
 - Sklearn
 - Xgboost
+- Keras
 
 
 Dificultades enfrentadas y como se resolvieron:
